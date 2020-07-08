@@ -1,0 +1,7 @@
+From python:3.8-slim
+RUN pip install flask pymongo
+WORKDIR /src
+ENV PYTHONPATH $PYTHONPATH:/pylib
+COPY ./cluster_status_server/src /src
+COPY ./pylib /pylib
+CMD ["python3", "-u", "server.py"]

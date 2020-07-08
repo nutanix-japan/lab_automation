@@ -1,0 +1,11 @@
+# general
+.DS_Store
+Thumbs.db
+
+# python
+*.pyc
+__pycache__/
+.venv/
+
+# editting ppt
+~$*

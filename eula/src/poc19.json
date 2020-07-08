@@ -1,0 +1,20 @@
+{
+  "cluster": {
+    "name" : "Poc19",
+    "external_ip":"10.149.161.41",
+    "user" : "admin",
+    "password": "DevOpsTeam4Eva!",
+    "netmask":"255.255.252.0",
+    "gateway":"10.149.160.1",
+    "ntp_server":"ntp.nict.jp",
+    "name_server":"8.8.8.8"
+  },
+
+  "eula": {
+    "initial_password": "nutanix/4u",
+    "user": "Yuichi Ito",
+    "company": "Nutanix",
+    "title": "DevOps Specialist",
+    "enable_pulse": true
+  }
+}

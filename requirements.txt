@@ -1,0 +1,8 @@
+pip
+autopep8
+pylint
+
+flask
+paramiko
+pymongo
+requests

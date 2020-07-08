@@ -1,0 +1,7 @@
+From python:3.8-slim
+RUN pip install flask paramiko requests
+WORKDIR /src
+ENV PYTHONPATH $PYTHONPATH:/pylib
+COPY ./foundation/src /src
+COPY ./pylib /pylib
+CMD ["python3", "-u", "server.py"]
